@@ -11,14 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" href="#" style="color: rgb(254, 255, 185);"><B>HAKKINDA</B></a>
+                <a class="nav-link active" href="#" style="color: rgb(255, 255, 207);"><B>HAKKINDA</B></a>
                 <a class="nav-link active" href="ozgecmis.html"
-                    style="color: rgb(254, 255, 185);"><B>ÖZGEÇMİŞ</B></a>
-                <a class="nav-link active" href="#" style="color: rgb(254, 255, 185);"><B>İLGİ ALANLARIM</B></a>
-                <a class="nav-link active" href="sehrim.html" style="color: rgb(254, 255, 185);"><B>ŞEHRİM</B></a>
-                <a class="nav-link active" href="#" style="color: rgb(254, 255, 185);"><B>MİRASIMIZ</B></a>
-                <a class="nav-link active" href="iletisim.html" style="color: white;"><B>İLETİŞİM</B></a>
-                <a class="nav-link active" href="#" style="color: white;"><B>GİRİŞ YAP</B></a>
+                style="color: rgb(255, 255, 207);"><B>ÖZGEÇMİŞ</B></a>
+                <a class="nav-link active" href="#" style="color: rgb(255, 255, 207);"><B>İLGİ ALANLARIM</B></a>
+                <a class="nav-link active" href="sehrim.html" style="color: rgb(255, 255, 207);"><B>ŞEHRİM</B></a>
+                <a class="nav-link active" href="#" style="color: rgb(255, 255, 207);"><B>MİRASIMIZ</B></a>
+                <a class="nav-link active" href="iletisim.html" style="color: rgb(255, 255, 207);"><B>İLETİŞİM</B></a>
+                <a class="nav-link active" href="#" style="color: rgb(255, 255, 207);"><B>GİRİŞ YAP</B></a>
 
             </div>
         </div>
@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var navbar2 = `
         <nav class="navbar" style="background-color: #0a152f;">
             <div class="container-fluid">
-                <p style="color: #fff;">Copyright © | All Rights Reserved for Furkan Anıl Özdemir | 2024 <img src="resimler/mail.png" width="25px" height="25px">' furkananil960@gmail.com 
-                <img src="resimler/telephone.png" width="25px" height="25px">' 0 552 261 94 20  </p>
+                <p style="color: #fff;">Copyright © | All Rights Reserved for Furkan Anıl Özdemir | 2024 <img src="resimler/mail.png" width="25px" height="25px"> furkananil960@gmail.com 
+                <img src="resimler/telephone.png" width="25px" height="25px"> 0 552 261 94 20  </p>
             </div>
         </nav>
     `;

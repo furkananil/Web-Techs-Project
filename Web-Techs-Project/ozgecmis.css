@@ -15,7 +15,7 @@ body {
 }
 
 .left {
-    width: 30%;
+    width: 35%;
     background-color: #000000;
     color: #fff;
     padding: 20px;
@@ -24,9 +24,9 @@ body {
 }
 
 .right {
-    width: 70%;
+    width: 65%;
     padding: 20px;
-    background-color: rgb(240, 251, 216);
+    background-color: rgb(254, 255, 185);
 }
 
 h1,
