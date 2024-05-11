@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     var navbar = `
-    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #08183d;">
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: black;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="resimler/home.png" width="30" height="30"
+        <a class="navbar-brand" href="hakkinda.html"> <img src="resimler/home.png" width="30" height="30"
                 class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -10,16 +10,18 @@ document.addEventListener("DOMContentLoaded", function () {
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav me-auto">
+                <a class="nav-link active ms-3" href="hakkinda.html" style="color: rgb(255, 255, 207);"><B>HAKKINDA</B></a>
+                <a class="nav-link active ms-3" href="ozgecmis.html" style="color: rgb(255, 255, 207);"><B>ÖZGEÇMİŞ</B></a>
+                <a class="nav-link active ms-3" href="#" style="color: rgb(255, 255, 207);"><B>İLGİ ALANLARIM</B></a>
+                <a class="nav-link active ms-3" href="sehrim.html" style="color: rgb(255, 255, 207);"><B>ŞEHRİM</B></a>
+                <a class="nav-link active ms-3" href="#" style="color: rgb(255, 255, 207);"><B>MİRASIMIZ</B></a>
+            </div>
             <div class="navbar-nav">
-                <a class="nav-link active" href="#" style="color: rgb(255, 255, 207);"><B>HAKKINDA</B></a>
-                <a class="nav-link active" href="ozgecmis.html"
-                style="color: rgb(255, 255, 207);"><B>ÖZGEÇMİŞ</B></a>
-                <a class="nav-link active" href="#" style="color: rgb(255, 255, 207);"><B>İLGİ ALANLARIM</B></a>
-                <a class="nav-link active" href="sehrim.html" style="color: rgb(255, 255, 207);"><B>ŞEHRİM</B></a>
-                <a class="nav-link active" href="#" style="color: rgb(255, 255, 207);"><B>MİRASIMIZ</B></a>
                 <a class="nav-link active" href="iletisim.html" style="color: rgb(255, 255, 207);"><B>İLETİŞİM</B></a>
-                <a class="nav-link active" href="#" style="color: rgb(255, 255, 207);"><B>GİRİŞ YAP</B></a>
-
+            </div>
+            <div class="navbar-nav ms-4 mx-5">
+                <a class="nav-link active " href="#" style="color: rgb(255, 255, 207);"><B>GİRİŞ YAP</B></a>
             </div>
         </div>
     </div>
