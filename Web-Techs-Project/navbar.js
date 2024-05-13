@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a class="nav-link active" href="iletisim.html" style="color: rgb(255, 255, 207);"><B>İLETİŞİM</B></a>
             </div>
             <div class="navbar-nav ms-4 mx-5">
-                <a class="nav-link active " href="#" style="color: rgb(255, 255, 207);"><B>GİRİŞ YAP</B></a>
+                <a class="nav-link active " href="girisyap.html" style="color: rgb(255, 255, 207);"><B>GİRİŞ YAP</B></a>
             </div>
         </div>
     </div>
