@@ -1,0 +1,36 @@
+<!-- display.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gönderilen Bilgiler</title>
+</head>
+<body>
+    <h1>Gönderilen Bilgiler</h1>
+    <div id="displayInfo"></div>
+
+    <script>
+        // Form verilerini al
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+            const formData = new FormData(contactForm);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const message = formData.get('message');
+            const gender = formData.get('gender');
+
+            // Verileri görüntüle
+            const displayInfo = document.getElementById('displayInfo');
+            displayInfo.innerHTML = `
+                <p>Ad: ${name}</p>
+                <p>E-posta: ${email}</p>
+                <p>Mesaj: ${message}</p>
+       
+                <p>Cinsiyet: ${gender || 'Belirtilmemiş'}</p>
+            `;
+        });
+    </script>
+</body>
+</html>

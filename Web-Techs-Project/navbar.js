@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var navbar = `
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color: black;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="hakkinda.html"> <img src="resimler/home (1).png" width="30" height="30"
+        <a class="navbar-brand" href="index.html"> <img src="resimler/home (1).png" width="30" height="30"
                 class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav me-auto">
-                <a class="nav-link active ms-3" href="hakkinda.html" style="color: white;"><B>HAKKINDA</B></a>
+                <a class="nav-link active ms-3" href="index.html" style="color: white;"><B>HAKKINDA</B></a>
                 <a class="nav-link active ms-3" href="ozgecmis.html" style="color: white;"><B>ÖZGEÇMİŞ</B></a>
                 <a class="nav-link active ms-3" href="ilgialanlarim.html" style="color: white;"><B>İLGİ ALANLARIM</B></a>
                 <a class="nav-link active ms-3" href="sehrim.html" style="color: white;"><B>ŞEHRİM</B></a>
